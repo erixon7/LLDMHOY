@@ -1,4 +1,4 @@
-radioactiva.tv
+www.lldmhoy.com
 ==============
 
-www.radioactiva.tv Canal de TV por Internet en Puebla, Pue.
+www.lldmhoy.com El Programa con sentido Fraterno
