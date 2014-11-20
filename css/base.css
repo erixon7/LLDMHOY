@@ -1,0 +1,300 @@
+@import url("../fonts/opensans_semibold_macroman/stylesheet.css");
+@import url("../fonts/opensans_light_macroman/stylesheet.css");
+@import url("../fonts/Entypo/stylesheet.css");
+
+
+body{
+	font-family: 'open_sanslight';
+    overflow:hidden;
+	margin:0;
+	padding:0;
+	color:#F4F4F4;
+}
+
+#header{
+	font-family: 'open_sanssemibold';
+	height: 10%;
+	width: 100%;
+	background-color: #00AACC;
+	color:#F4F4F4;
+	text-align: center;
+	font-size: 2em;
+}
+
+#buttons{
+	display:inline;
+	position:absolute;
+	margin: 0;
+	padding: 0;
+	z-index: 4;
+	width: 100%;
+	font-size: 1.3em;
+	text-align: center;
+
+}
+
+#streaming_button {
+	margin:0;
+	height:100%;
+	width:50%;
+	float:left;
+	background-color:#A6A6A6;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+#podcast_button {
+	margin:0;
+	height:100%;
+	width:50%;
+	float: right;
+	background-color:#F4F4F4;
+	color:#A6A6A6;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+#name{
+	font-size:2em;
+}
+
+#streaming_tab{
+	clear: both;
+	position: absolute;
+	z-index:3;
+	height: 100%;
+	width: 100%;
+	background-color:#A6A6A6;
+}
+
+
+audio{
+/*	display:none;*/
+}
+
+/*#player_hq{*/
+
+/*}*/
+
+.playing{
+	position: absolute;
+	width:40%;
+	height:28%;
+	top:30%;
+	left:35%;
+	background-image: url("../img/pause.png");
+}
+
+.paused{
+	position: absolute;
+	width:40%;
+	height:28%;
+	top:30%;
+	left:35%;
+	background-image: url("../img/play.png");
+}
+
+/*#player_sq{*/
+/*	position: absolute;*/
+/*	top: 20%;*/
+/*	left: 60%;*/
+/*	height:40%;*/
+/*	width:35%;*/
+
+/*	text-align:center;*/
+/*	font-size:1.3em;*/
+/*}*/
+
+
+
+.streaming_button{
+	margin-top:15%;
+	width:50%;
+}
+
+
+#install{
+	font-family: 'open_sanssemibold';
+	clear: both;
+	margin: auto;
+	padding: auto;
+	margin-top:80%;
+	padding-top: 0.3em;
+	padding-bottom: 0.2em;
+	width: 30%;
+	border:1px solid #4D4D4D;
+	background: #FF4E00;
+	border-radius:0.2em;
+	text-align:center;
+	font-size: 1em;
+	display: none;
+}
+
+#podcast_tab{
+	z-index:2;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color:white;
+	margin-top: 2.5em;
+	background-color: #f4f4f4;
+	overflow-y: scroll;
+}
+
+#details{
+	display: none;
+	z-index: 2;
+	position: absolute;
+	margin:auto;
+	padding: 5%;
+	margin-left: 4%;
+	height: 80%;
+	width: 82%;
+	background-color: #EAEAE7;
+	font-size: 0.7em;
+	text-align:center;
+	overflow-y: scroll;
+	color: #5F5F5F;
+}
+
+
+#episodes{
+	width: 100%;
+	height: 100%;
+	clear:both;
+	padding: 0;
+	margin: 0;
+	margin-top: 1em;
+	left: 0%;
+	list-style-type: none;
+	position: absolute;
+	background-color: #f4f4f4;
+	color:#2C393B;
+}
+
+.episode_logo{
+	float: left;
+	width: 4em;
+	margin: 0.5em;
+}
+
+.item_list{
+	border-bottom: 1px solid  #00AACC;
+	padding-top: 0.5em;
+	padding-bottom: 0.7em;
+	margin: 1em;
+	margin-bottom: 0;
+	margin-top: 0.5em;
+	clear: both;
+}
+
+.link{
+	width: 70%;
+	font-size:0.75em;
+	padding-bottom: 0.3em;
+	float: left;
+}
+
+.play_episode{
+	display: inline;
+	float: right;
+	width: 1.1em;
+	height: 1.1em;
+	font-size: 1.3em;
+	margin-left: 0.3em;
+	margin-top: -0.2em;
+}
+.play_episode:before{
+	content: "▶";
+	font-family: "entypo";
+	font-size: 2em;
+}
+
+.download{
+	display: inline;
+	float: right;
+	width: 1.1em;
+	height: 1.1em;
+	font-size: 1.3em;
+	margin-left: 0.3em;
+	margin-top: -0.2em;
+}
+.download:before{
+	content: "💾";
+	font-family: "entypo";
+	font-size: 2em;
+}
+
+.description{
+	display: none;
+}
+
+li{
+	margin-left: 0%;
+	padding-bottom: 0.3em;
+}
+
+/*a{*/
+/*	margin: 0%;*/
+/*	font-size:1em;*/
+/*}*/
+
+#player{
+	display: none;
+	z-index: 4;
+	position: absolute;
+	top: 85%;
+	height: 15%;
+	width: 100%;
+	color: pink;
+	background-color: #008EAB;
+}
+
+.player_button{
+	width:25%;
+/*	height:10%;*/
+	background-color:white;
+}
+
+#mute{
+	position:absolute;
+	top: 30%;
+	left: 15%;
+}
+
+#stop{
+	position:absolute;
+	top: 30%;
+	left: 35%;	
+}
+
+#volumedown{
+	position:absolute;
+	top: 30%;
+	left: 55%;
+}
+
+#volumeup{
+	position:absolute;
+	top: 30%;
+	left: 75%;	
+}
+
+
+#loading{
+	display: none;
+	z-index: 5;
+	position: absolute;
+	top: 85%;
+	height: 15%;
+	width: 100%;
+	opaciy: 0.4;
+	color: white;
+	text-align:center;
+	font-size:1.2em;
+	font-weight: bold;
+	line-height: 100%;
+	vertical-align: middle;
+	background-color: black;
+}
+.clear{clear: both}

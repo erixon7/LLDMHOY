@@ -1,4 +1,7 @@
-radioactiva.tv
-==============
+Radio La Luz del Mungo Hoy
+==========
 
-www.radioactiva.tv Canal de TV por Internet en Puebla, Pue.
+<a href="http://www.lldmhoy.com" >www.lldmhoy.com</a>
+
+<a href="http://www.itic.com.mx">Desarrollada por itic - Tu Apoyo Tecnológico
+www.itic.com.mx</a>

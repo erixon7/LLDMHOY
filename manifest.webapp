@@ -1,0 +1,42 @@
+{
+  "version": "2.0",
+  "name": "Radio LLDMHOY",
+  "description": "Aplicación de La Luz del Mundo Hoy",
+  "launch_path": "/index.html",
+  "fullscreen": "false",
+  "icons": {
+    "16": "/img/icono.png",
+    "48": "/img/icono.png",
+    "128": "/img/icono.png"
+  },
+  "developer": {
+    "name": "Erick Cortés Roque",
+    "url": "http://www.lldmhoy.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "es": {
+      "description": "Radio La Luz del Mundo Hoy",
+      "developer": {
+        "name": "itic",
+        "url": "http://www.lldmhoy.com"
+      }
+    }
+  },
+  "default_locale": "es",
+  "permissions": {
+    "audio-channel-content": {
+      "description": "Use the audio channel for the music player"
+    },
+    "device-storage:music": {
+      "description": "Permiso para escribir en la carpeta de almacenamiento de música",
+      "access": "readwrite"
+    },
+    "device-storage:sdcard": {
+      "description": "Permiso para descargar ficheros mp3 en la tarjeta SD",
+      "access": "readwrite"
+    }
+  }
+}
