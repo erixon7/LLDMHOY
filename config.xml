@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.lldmhoy.itic"
+    id        = "tv.radioactiva.victor"
     version   = "1.0.0">
 
-<name>LLDM HOY</name>
+<name>TV por Internet</name>
 
 <description>
-El Programa con Sentido Fraterno
+Smart Card de Radioactiva.tv
 </description>
 <preference name="fullscreen" value="false" />
 <icon src="img/icono.png" />
 <gap:splash src="img/smartcard_banner_vert.jpg" />
-<author href="https://www.itic.com.mx" email="ecortes@itic.com.mx">
-Erick Cortés Roque
+<author href="https://www.radioactiva.tv" email="vcortes@itic.com.mx">
+Victor Cortés
 </author>
 
 </widget>
